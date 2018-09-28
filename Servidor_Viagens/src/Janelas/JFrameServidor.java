@@ -12,7 +12,8 @@ import servidor_viagens.Servidor_Main;
 
 /**
  *
- * @author a1555960
+ * @author rubens
+ *
  */
 public class JFrameServidor extends javax.swing.JFrame {
 

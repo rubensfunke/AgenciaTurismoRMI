@@ -16,7 +16,7 @@ import java.rmi.registry.Registry;
 
 /**
  *
- * @author a1555960
+ * @author rubens
  */
 public class JFrameCliente extends javax.swing.JFrame {
 

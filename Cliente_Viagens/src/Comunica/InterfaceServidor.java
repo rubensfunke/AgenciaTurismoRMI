@@ -10,7 +10,7 @@ import java.rmi.RemoteException;
 
 /**
  *
- * @author a1555960
+ * @author rubens
  */
 public interface InterfaceServidor extends Remote{
     
