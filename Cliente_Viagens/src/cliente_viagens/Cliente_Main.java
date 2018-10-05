@@ -24,7 +24,6 @@ public class Cliente_Main {
         Cliente_Main client = new Cliente_Main();
         
         
-        
         try {
             InterfaceClienteImp InterfaceCliente = new InterfaceClienteImp();
             
