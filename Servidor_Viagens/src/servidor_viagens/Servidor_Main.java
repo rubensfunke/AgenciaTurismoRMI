@@ -10,7 +10,7 @@ import java.rmi.registry.Registry;
 
 /**
  *
- * @author a1555960
+ * @author rubensFunke
  */
 public class Servidor_Main {
 
