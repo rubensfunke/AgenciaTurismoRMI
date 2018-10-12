@@ -11,7 +11,7 @@ import java.rmi.registry.Registry;
 
 /**
  *
- * @author a1555960
+ * @author rubensFunke
  */
 public class Cliente_Main {
 
