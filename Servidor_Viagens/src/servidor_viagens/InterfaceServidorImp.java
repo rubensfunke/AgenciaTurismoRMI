@@ -12,7 +12,7 @@ import java.rmi.server.UnicastRemoteObject;
 
 /**
  *
- * @author a1555960
+ * @author rubensFunke
  */
 public class InterfaceServidorImp extends UnicastRemoteObject implements InterfaceServidor{
     
