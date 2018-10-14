@@ -23,14 +23,12 @@ public class Servidor_Main {
 
         try {
             InterfaceServidorImp serverInterface = new InterfaceServidorImp();
-            
             Registry registro = LocateRegistry.createRegistry(8080);
-            System.out.println("Deu certo no servidor na hora do registro");
-
             registro.bind("server", serverInterface);
-            System.out.println("Deu certo o registro do servidor");
+            System.out.println("Servidor pronto");
+            new telaServidor(serverInterface);
         } catch (Exception e) {
-            System.out.println("Cagou servidor!!!");
+            System.out.println("Servidor fora de serviço!!!");
         }
 
     }
