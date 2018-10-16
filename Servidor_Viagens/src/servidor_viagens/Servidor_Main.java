@@ -26,7 +26,7 @@ public class Servidor_Main {
             Registry registro = LocateRegistry.createRegistry(8080);
             registro.bind("server", serverInterface);
             System.out.println("Servidor pronto");
-            new telaServidor(serverInterface);
+            new TelaServidor(serverInterface);
         } catch (Exception e) {
             System.out.println("Servidor fora de serviço!!!");
         }
